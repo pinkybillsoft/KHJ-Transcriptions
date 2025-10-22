@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>KHJ Transcriptions</title>
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
   
@@ -15,7 +16,7 @@
       <span>KHJ Transcriptions</span>
     </a>
     <nav class="menu">
-      <a href="index.html">Home</a>
+      <a class="active" href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="services.html">Services</a>
       <a href="contact.html">Contact</a>
@@ -23,13 +24,105 @@
   </div>
 </header>
 
-  <main class="section">
-    <div class="container">
-      <h1>Welcome to KHJ Transcriptions</h1>
-      <p>Innovative Insurance Billing Solutions</p>
+<main>
+
+  <!-- HERO (keeps your spacing system) -->
+  <section class="section hero-lite">
+    <div class="container hero-inner">
+      <p class="eyebrow">Welcome to</p>
+      <h1 class="title">KHJ <span>Transcriptions</span></h1>
+      <p class="subtitle">Innovative Insurance Billing Solutions</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:khjtranscriptions@gmail.com">khjtranscriptions@gmail.com</a>
+        <a class="btn btn-outline" href="services.html">Our Services</a>
+      </div>
     </div>
-  </main>
-  
+  </section>
+
+  <!-- OUR SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <p class="lead">
+        For over 15 years, KHJ Transcriptions has been at the forefront of the insurance billing industry.
+        Our team combines extensive experience with modern tools to deliver accurate, compliant, and timely results—
+        so you can focus on patient care and recovery.
+      </p>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-img" aria-hidden="true"></div>
+          <h3>Personal Insurance Billing</h3>
+          <p>End-to-end handling of personal insurance claims to maximize coverage and benefits.</p>
+        </article>
+
+        <article class="card reveal" style="--d:.08s">
+          <div class="card-img" aria-hidden="true"></div>
+          <h3>Payments</h3>
+          <p>Posting of received payments accurately in the provider’s billing system.</p>
+        </article>
+
+        <article class="card reveal" style="--d:.16s">
+          <div class="card-img" aria-hidden="true"></div>
+          <h3>Denial Management</h3>
+          <p>Persistent follow-ups and appeals to overturn avoidable denials.</p>
+        </article>
+
+        <article class="card reveal" style="--d:.24s">
+          <div class="card-img" aria-hidden="true"></div>
+          <h3>General Repairs</h3>
+          <p>Clean-up and reconciliation of EOBs to protect your financial interests.</p>
+        </article>
+      </div>
+
+      <div class="center mt-16">
+        <a class="btn btn-ghost" href="services.html">Explore More Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO WE ARE -->
+  <section class="section section-alt" id="about">
+    <div class="container grid-two">
+      <div>
+        <h2 class="section-title">Who We Are</h2>
+        <p>
+          Medical billing is a payment practice within the U.S. healthcare system involving the submission and
+          processing of claims for reimbursement. After services are provided, providers create a detailed record of the
+          visit—diagnoses, procedures, and medications—which is coded and submitted for payment. We manage this full
+          lifecycle with precision and compliance.
+        </p>
+        <a class="btn btn-secondary" href="about.html">Learn More</a>
+      </div>
+      <div class="media-panel" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section" id="why">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us</h2>
+      <p class="lead">
+        A trusted insurance billing partner with 15+ years of experience delivering comprehensive, tailored solutions.
+      </p>
+
+      <div class="feature-grid">
+        <div class="feature reveal">
+          <div class="icon">✓</div>
+          <h3>Licensed &amp; Insured</h3>
+          <p>Experienced with CPT, ICD, HCPCS, DRG; payer and regulatory requirements across specialties.</p>
+        </div>
+        <div class="feature reveal" style="--d:.1s">
+          <div class="icon">✓</div>
+          <h3>Eligibility Verification</h3>
+          <p>Thorough benefit checks prevent coverage errors and claim delays.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
 <footer class="footer">
   <div class="container footer-grid">
     <div class="footer-brand">
@@ -50,6 +143,6 @@
   <div class="footer-bottom">© 2025 KHJ Transcriptions</div>
 </footer>
 
-  <script src="assets/js/main.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
