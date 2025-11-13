@@ -720,7 +720,13 @@ a:focus-visible {
   outline: 3px solid #3b82f6;
   outline-offset: 3px;
 }
+.service-icon-amber {
+  color: #d97706;
+}
 
+.service-card:has(.service-icon-amber) {
+  color: #d97706;
+}
 /* ============================================
    PRINT STYLES
    ============================================ */
