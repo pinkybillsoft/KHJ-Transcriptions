@@ -100,7 +100,7 @@ a {
 }
 
 a:hover {
-  color: var(--accent);
+  color: var(--off-white);
 }
 
 /* ============================================
