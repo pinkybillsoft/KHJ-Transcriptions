@@ -536,3 +536,8 @@ a:hover {
     gap: 32px;
   }
 }
+
+.contact-item{
+  display: flex;
+  gap: 10px;
+}
