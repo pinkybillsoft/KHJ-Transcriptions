@@ -100,7 +100,7 @@ a {
 }
 
 a:hover {
-  color: var(--accent);
+  color: var(--off-white);
 }
 
 /* ============================================
@@ -535,4 +535,9 @@ a:hover {
     grid-template-columns: 1fr;
     gap: 32px;
   }
+}
+
+.contact-item{
+  display: flex;
+  gap: 10px;
 }
